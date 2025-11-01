@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohammed Souhail Mounaji – Portfolio</title>
+  <meta name="description" content="Chef de projet IT & Consultant ERP GOLD – projets, expériences, coordonnées." />
+  <meta property="og:title" content="Mohammed Souhail Mounaji – Portfolio" />
+  <meta property="og:description" content="Chef de projet IT & Consultant ERP GOLD – projets, expériences, coordonnées." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#111827" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111827'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-size='28' font-family='Arial, Helvetica, sans-serif' fill='%23ffffff'%3EMS%3C/text%3E%3C/svg%3E"/>
+  <style>
+    :root{--bg:#0b1020;--bg-2:#0f152c;--txt:#e5e7eb;--muted:#9ca3af;--accent:#7c3aed;--accent-2:#22d3ee;--card:#111827;--border:rgba(255,255,255,.08);--shadow:0 10px 30px rgba(0,0,0,.35);--radius:16px}
+    .light{--bg:#f8fafc;--bg-2:#eef2ff;--txt:#0f172a;--muted:#475569;--accent:#7c3aed;--accent-2:#0ea5e9;--card:#ffffff;--border:rgba(0,0,0,.08);--shadow:0 10px 30px rgba(2,6,23,.08)}
+    *{box-sizing:border-box}html,body{height:100%}body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Helvetica,Arial; background:radial-gradient(1200px 600px at 20% -10%,var(--accent)/.15,transparent 60%),radial-gradient(1200px 600px at 120% 10%,var(--accent-2)/.12,transparent 55%),linear-gradient(180deg,var(--bg),var(--bg));color:var(--txt);line-height:1.6;scroll-behavior:smooth}
+    a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.container{max-width:1100px;margin:0 auto;padding:0 20px}
+    header.nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(180%) blur(10px);background:color-mix(in oklab,var(--bg) 85%,transparent);border-bottom:1px solid var(--border)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:700}.brand .logo{width:34px;height:34px;border-radius:10px;background:conic-gradient(from 180deg at 50% 50%,var(--accent),var(--accent-2) 60%,var(--accent));box-shadow:inset 0 0 0 2px rgba(255,255,255,.08)}
+    .menu{display:flex;gap:18px;align-items:center}.menu a{padding:8px 10px;border-radius:10px}.menu a:hover{background:var(--border)}
+    .btn{display:inline-flex;gap:8px;align-items:center;padding:10px 14px;border-radius:12px;border:1px solid var(--border);background:linear-gradient(180deg,color-mix(in oklab,var(--card) 70%,transparent),var(--card));box-shadow:var(--shadow)}.btn:hover{transform:translateY(-1px)}.btn.primary{background:linear-gradient(180deg,color-mix(in oklab,var(--accent) 30%,var(--card)),var(--card));border-color:color-mix(in oklab,var(--accent) 40%,var(--border))}
+    .hero{padding:78px 0 34px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:999px;padding:6px 10px;color:var(--muted);font-size:14px}.title{font-size:clamp(32px,6vw,56px);line-height:1.08;margin:12px 0}.subtitle{color:var(--muted);font-size:clamp(16px,2.2vw,20px)}.hero-cta{display:flex;gap:12px;margin-top:22px;flex-wrap:wrap}
+    .avatar-wrap{position:relative}.avatar{width:100%;aspect-ratio:1/1;border-radius:24px;background:radial-gradient(240px 120px at 20% 20%,var(--accent)/.25,transparent 55%),url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat;border:1px solid var(--border);box-shadow:var(--shadow)}.badge{position:absolute;right:-10px;bottom:-10px;padding:8px 12px;border-radius:12px;background:var(--card);border:1px solid var(--border);font-size:14px}
+    section{padding:60px 0}.section-header{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:22px}.section-header h2{margin:0;font-size:clamp(24px,4vw,32px)}.section-header p{color:var(--muted);margin:0}
+    .grid{display:grid;gap:16px}.grid.cols-3{grid-template-columns:repeat(3,1fr)}.grid.cols-2{grid-template-columns:repeat(2,1fr)}@media (max-width:900px){.hero-grid{grid-template-columns:1fr}.grid.cols-3{grid-template-columns:1fr}.grid.cols-2{grid-template-columns:1fr}}
+    .card{border:1px solid var(--border);background:linear-gradient(180deg,color-mix(in oklab,var(--card) 70%,transparent),var(--card));border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}.card h3{margin:6px 0 8px}
+    .skills{display:flex;gap:10px;flex-wrap:wrap}.chip{border:1px solid var(--border);background:color-mix(in oklab,var(--card) 85%,transparent);padding:8px 10px;border-radius:999px;font-size:14px}
+    .timeline{position:relative;margin-left:8px}.timeline:before{content:"";position:absolute;left:12px;top:0;bottom:0;width:2px;background:var(--border)}.t-item{position:relative;padding-left:34px;margin:14px 0}.t-item:before{content:"";position:absolute;left:6px;top:9px;width:12px;height:12px;border-radius:999px;background:linear-gradient(180deg,var(--accent),var(--accent-2))}
+    footer{padding:30px 0 60px;color:var(--muted)}.socials{display:flex;gap:10px}.socials a{display:inline-flex;padding:10px;border:1px solid var(--border);border-radius:12px}
+    form{display:grid;gap:12px}input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--border);background:color-mix(in oklab,var(--card) 85%,transparent);color:var(--txt)}textarea{min-height:120px}.note{font-size:14px;color:var(--muted)}
+    .toggle{position:fixed;right:16px;bottom:16px;z-index:60}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="logo" aria-hidden="true"></span>
+        <span>Mohammed Souhail Mounaji</span>
+      </a>
+      <nav class="menu" aria-label="Navigation principale">
+        <a href="#apropos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#experience">Expérience</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="#cv">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="pill">Disponible pour de nouvelles opportunités</span>
+          <h1 class="title">Bonjour, moi c'est <span style="background:linear-gradient(90deg,var(--accent),var(--accent-2)); -webkit-background-clip:text; background-clip:text; color:transparent">Mohammed Souhail Mounaji</span>.<br/>Je pilote des projets IT et ERP GOLD.</h1>
+          <p class="subtitle">Chef de projet IT & Consultant ERP GOLD basé à Salé. Spécialisé dans les déploiements SaaS/techniques, la gouvernance PMO, la gestion des risques et l’optimisation de la performance (SQL/Pro*C).</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#projets">Voir mes projets</a>
+            <a class="btn" href="#contact">Me contacter</a>
+          </div>
+          <div class="skills" style="margin-top:14px">
+            <span class="chip">Gestion de projet</span>
+            <span class="chip">ERP GOLD</span>
+            <span class="chip">Gouvernance PMO</span>
+            <span class="chip">Agile / ITIL</span>
+            <span class="chip">SQL / PL/SQL</span>
+            <span class="chip">Oracle</span>
+            <span class="chip">Gestion des risques</span>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <div class="avatar" role="img" aria-label="Photo ou avatar"></div>
+          <div class="badge">+5 ans d'expérience</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos">
+      <div class="container">
+        <div class="section-header">
+          <h2>À propos</h2>
+          <p>Qui je suis et ce qui me motive</p>
+        </div>
+        <div class="grid cols-2">
+          <div class="card">
+            <h3>Mon histoire</h3>
+            <p>Chef de projet confirmé avec plus de 5 ans d’expérience dans le déploiement de solutions SaaS et techniques complexes. Expert ERP GOLD (modules Stock, Central, logistique) avec une forte expérience en paramétrage, optimisation des processus, support N2/N3 et amélioration de la performance (requêtes SQL et Pro*C).</p>
+            <p>Habitué à piloter des projets de bout en bout, à structurer la gouvernance (comités, reporting KPI), à anticiper les risques et à coordonner ventes, ingénierie, support et produit.</p>
+          </div>
+          <div class="card">
+            <h3>Ce que je recherche</h3>
+            <p>Des missions de pilotage et d’intégration ERP/IT où je peux apporter de la rigueur de delivery, améliorer la fiabilité des systèmes et accompagner les équipes vers l’excellence opérationnelle.</p>
+            <div class="skills">
+              <span class="chip">Chef de projet IT</span>
+              <span class="chip">Consultant ERP GOLD</span>
+              <span class="chip">Retail / Logistique</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets">
+      <div class="container">
+        <div class="section-header">
+          <h2>Projets</h2>
+          <p>Quelques réalisations marquantes</p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop" alt="Migration Dollar Universe – Auchan" />
+            <h3>Migration de l’ordonnanceur Dollar Universe – Auchan</h3>
+            <p>Pilotage du projet (spécifications, macro/micro planning, coordination, rituels hebdo). Gestion des risques et tenue des jalons critiques.</p>
+            <a class="btn" href="#" aria-label="Détails Migration Dollar Universe">Détails</a>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&auto=format&fit=crop" alt="ERP GOLD – Stock & Central" />
+            <h3>ERP GOLD – Stock & Central (Auchan)</h3>
+            <p>Encadrement & intégration : paramétrage des modules, optimisation des processus, support N2/N3, amélioration des performances (SQL/Pro*C).</p>
+            <a class="btn" href="#" aria-label="Détails ERP GOLD Auchan">Détails</a>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1200&auto=format&fit=crop" alt="Gouvernance multi-comptes" />
+            <h3>Cadre de gouvernance multi‑comptes – DXC</h3>
+            <p>Mise en place de la gouvernance projet : comités de pilotage, indicateurs de performance, optimisation de l’allocation des ressources.</p>
+            <a class="btn" href="#" aria-label="Détails gouvernance multi-comptes">Détails</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2>Expérience</h2>
+          <p>Parcours professionnel</p>
+        </div>
+        <div class="card timeline">
+          <div class="t-item">
+            <h3>Chef de projet – DXC Technology <span style="color:var(--muted); font-weight:500">(avr. 2022 – présent)</span></h3>
+            <p>Cadres de gouvernance, reporting KPI, gestion proactive des risques, optimisation des ressources, animation des COPIL et coordination des équipes.</p>
+          </div>
+          <div class="t-item">
+            <h3>Chef de projet – Migration Dollar Universe (Auchan) · DXC <span style="color:var(--muted); font-weight:500">(mai 2021 – mars 2022)</span></h3>
+            <p>Spécifications détaillées, macro/micro planification, réunions hebdomadaires, tenue des échéances et gestion des risques.</p>
+          </div>
+          <div class="t-item">
+            <h3>Responsable d’équipe / Consultant ERP GOLD (Auchan) · DXC <span style="color:var(--muted); font-weight:500">(juil. 2016 – mai 2021)</span></h3>
+            <p>Recueil besoins, specs fonctionnelles, paramétrage modules Stock & Central, support N2/N3, optimisation SQL/Pro*C, supervision incidents critiques.</p>
+          </div>
+          <div class="t-item">
+            <h3>Ingénieur d’études & développement · HP‑CDG (Rabat) <span style="color:var(--muted); font-weight:500">(fév. 2010 – juin 2016)</span></h3>
+            <p>Maintenance & évolution de l’ERP logistique GOLD, gestion des incidents et demandes, formation utilisateurs, amélioration continue.</p>
+          </div>
+          <div class="t-item">
+            <h3>Stagiaire technicien systèmes & réseaux · ONEP <span style="color:var(--muted); font-weight:500">(avr. 2009 – mai 2009)</span></h3>
+          </div>
+          <div class="t-item">
+            <h3>Stagiaire technicien · ASMAROC <span style="color:var(--muted); font-weight:500">(fév. 2008 – mar. 2008)</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="temoignages">
+      <div class="container">
+        <div class="section-header">
+          <h2>Certifications & Langues</h2>
+          <p>Reconnaissances et communication</p>
+        </div>
+        <div class="grid cols-3">
+          <div class="card">
+            <h3>Certifications</h3>
+            <ul>
+              <li>SCRUM Foundation Professional (2020)</li>
+              <li>ITIL v3 – Foundation (2019)</li>
+              <li>Dollar Universe 6.0 – Expert & Admin (2016)</li>
+              <li>Oracle 10g SQL & PL/SQL (2010)</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Formations</h3>
+            <ul>
+              <li>Master Réseaux Informatiques – ESR (2010–2012)</li>
+              <li>Licence Réseaux Informatiques – ESR (2009–2010)</li>
+              <li>DTS Systèmes & Réseaux – ISTA NTIC Rabat (2007–2009)</li>
+              <li>Baccalauréat électrotechnique – Salé (2006)</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Langues</h3>
+            <p>Arabe : Courant<br/>Français : Bon niveau (lu, écrit, parlé)<br/>Anglais : Bon niveau (lu, écrit, parlé)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Discutons de votre besoin</p>
+        </div>
+        <div class="grid cols-2">
+          <div class="card">
+            <form onsubmit="sendMessage(event)">
+              <label>
+                <span>Nom</span>
+                <input name="name" placeholder="Votre nom" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="vous@exemple.com" required />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea name="message" placeholder="Bonjour, j'aimerais parler de…" required></textarea>
+              </label>
+              <button class="btn primary" type="submit">Envoyer</button>
+              <p class="note">Ce formulaire est un exemple. Connectez‑le à un service (Formspree, Netlify Forms, etc.) pour recevoir les messages.</p>
+            </form>
+          </div>
+          <div class="card">
+            <h3>Me trouver</h3>
+            <p>Basé à Salé (Maroc). Ouvert aux opportunités au Maroc et à l’international (remote/hybride).</p>
+            <div class="skills">
+              <a class="chip" href="mailto:mounaji.s@gmail.com" aria-label="Envoyer un email">📧 mounaji.s@gmail.com</a>
+              <a class="chip" href="tel:+212663729517" aria-label="Appeler">📞 +212 6 63 72 95 17</a>
+              <a class="chip" href="https://www.linkedin.com/in/mohammed-souhail-mounaji-48a7aa133/" target="_blank" rel="noopener" aria-label="LinkedIn de Mohammed Souhail Mounaji">in LinkedIn</a>
+              <a class="chip" href="#" aria-label="Ouvrir votre profil GitHub">🐙 GitHub</a>
+              <a class="chip" href="#" aria-label="Ouvrir votre compte X/Twitter">𝕏 Twitter</a>
+            </div>
+            <div id="cv" style="margin-top:16px">
+              <a class="btn" href="#" aria-disabled="true" title="Ajoutez votre PDF ici">Télécharger mon CV (PDF)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px">
+      <p>© <span id="year"></span> Mohammed Souhail Mounaji. Tous droits réservés.</p>
+      <div class="socials" aria-label="Réseaux sociaux">
+        <a href="https://www.linkedin.com/in/mohammed-souhail-mounaji-48a7aa133/" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6 1.12 6 0 4.88 0 3.5 0 2.12 1.12 1 2.5 1 3.88 1 4.98 2.12 4.98 3.5zM0 8h5v16H0zM8 8h4.8v2.2h.1c.7-1.3 2.5-2.7 5.1-2.7 5.4 0 6.4 3.6 6.4 8.3V24h-5V16.6c0-1.8 0-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4V24H8V8z" fill="currentColor"/></svg></a>
+        <a href="#" title="GitHub" aria-label="GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 .5C5.73.5.98 5.24.98 11.5c0 4.85 3.14 8.96 7.49 10.41.55.1.75-.24.75-.53 0-.26-.01-1.12-.02-2.04-3.05.66-3.7-1.3-3.7-1.3-.5-1.26-1.22-1.6-1.22-1.6-1-.68.08-.66.08-.66 1.11.08 1.7 1.14 1.7 1.14.98 1.68 2.58 1.2 3.2.92.1-.71.38-1.2.69-1.48-2.44-.28-5-1.22-5-5.45 0-1.2.43-2.19 1.14-2.96-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.14a10.74 10.74 0 0 1 5.6 0c2.13-1.44 3.07-1.14 3.07-1.14.62 1.54.24 2.68.12 2.96.71.77 1.14 1.76 1.14 2.96 0 4.24-2.56 5.16-5 5.44.39.34.74 1.02.74 2.06 0 1.49-.01 2.69-.01 3.06 0 .29.2.64.76.53A10.51 10.51 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5Z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="btn toggle" onclick="toggleTheme()" aria-label="Basculer thème clair/sombre">🌓 Thème</button>
+
+  <script>
+    // Année courante
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Thème clair/sombre avec préférence système (auto)
+    const THEME_KEY = 'pref-theme';
+    const root = document.documentElement;
+    const saved = localStorage.getItem(THEME_KEY);
+    if(saved === 'light' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches)) {
+      root.classList.add('light');
+    }
+    // Écoute les changements du système
+    if (window.matchMedia) {
+      window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', e => {
+        if (!localStorage.getItem(THEME_KEY)) {
+          root.classList.toggle('light', e.matches);
+        }
+      });
+    }
+    function toggleTheme(){
+      root.classList.toggle('light');
+      localStorage.setItem(THEME_KEY, root.classList.contains('light') ? 'light' : 'dark');
+    }
+
+    // Form demo handler
+    function sendMessage(e){
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(e.target).entries());
+      alert(`Merci ${data.name}! Je vous répondrai à ${data.email}.`);
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
